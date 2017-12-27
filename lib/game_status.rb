@@ -32,7 +32,7 @@ def won?(board)
  #   position_3 = board[win_index_3]
  #
  #
- #
+ # this should not be important until #winner (x's and o's)
  #   if position_1 == "X" && position_2 == "X" && position_3 == "X"
  #     return win_combination
  #   elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
@@ -97,7 +97,7 @@ def winner(board)
   else
     nil
   end
-
+  winner 
 #  if won?(board) == false
 #    return nil
 #  end
