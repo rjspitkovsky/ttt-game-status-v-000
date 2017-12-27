@@ -25,9 +25,8 @@ end
 
 
 def full?(board)
-  board.none? do |index|
-    index == " "
-  end
+  board.none? do {|index| index == " "}
+  
 
   # test_array = []
   # x = 0
