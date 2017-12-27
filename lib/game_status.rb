@@ -27,7 +27,6 @@ end
 def full?(board)
   board.none? {|index| index == " "}
 
-
   # test_array = []
   # x = 0
   # while x < board.length
