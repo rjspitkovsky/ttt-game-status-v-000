@@ -48,23 +48,23 @@ end
 
 
 def full?(board)
-  # board.none? do |index|
-  #   index == " " || index.nil?
-  # end
+  board.none? do |index|
+    index == " " || index.nil?
+  end
 
-  test_array = []
-  x = 0
-  while x < board.length
-   if board[x] == "X" || board[x] == "O"
-     test_array << board[x]
-   end
-   x += 1
-  end
-  if test_array.length == board.length
-   return true
-  else
-   false
-  end
+  # test_array = []
+  # x = 0
+  # while x < board.length
+  #  if board[x] == "X" || board[x] == "O"
+  #    test_array << board[x]
+  #  end
+  #  x += 1
+  # end
+  # if test_array.length == board.length
+  #  return true
+  # else
+  #  false
+  # end
 end
 
 def draw?(board)
