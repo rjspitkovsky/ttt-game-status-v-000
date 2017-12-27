@@ -49,7 +49,7 @@ end
 
 def full?(board)
   board.none? do |index|
-    index == " " || index.nil?
+    index == " " #|| index.nil?
   end
 
   # test_array = []
